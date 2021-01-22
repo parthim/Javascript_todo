@@ -1,0 +1,104 @@
+
+h1,h2,h3,h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-transform:uppercase;
+    text-decoration: underline;
+    
+}
+h1 {
+    text-align: center;
+    color:chocolate;
+    font: weight 700px;
+}
+ul li {
+    display: block;
+    display: -moz-inline-grid;
+    text-decoration: none;
+    list-style: none;
+    /* font-size: large; */
+    align-self: start;
+}
+.Dia li{
+    display: inline-block;
+}
+.Dia button {
+    font-size: xx-large;
+    padding:2% 5%;
+    display: table-cell;
+    
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(0deg, #2a2c39 50%, #33364a 100%);
+    color: #fff;
+    padding: 0;
+  }
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    padding-top: 60px;
+  }
+  #collapseExample {
+    background: linear-gradient(0deg, #75dbc2 50%, #7149a0 100%);  }
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+/* .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(0deg, #2a2c39 50%, #33364a 100%);
+    color: #fff;
+    padding: 0;
+  }
+  
+  .carousel .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    padding-top: 60px;
+  }
+  
+  .carousel h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .carousel p {
+    width: 80%;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    margin: 0 auto 30px auto;
+    color: #fff;
+  }
+  
+  .carousel .carousel-control-prev, .carousel .carousel-control-next {
+    width: 10%;
+  }
+  
+  .carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+    background: none;
+    font-size: 48px;
+    line-height: 1;
+    width: auto;
+    height: auto;
+  }
+   */
